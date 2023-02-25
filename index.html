@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet"
+    href="./assets/css/style.css">
+  <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+  <link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header container mb-2 py-1">
+    <div>
+      <img src="./assets/images/logo.svg"
+        alt="Logo">
+    </div>
+    <nav>
+      <a href="#"
+        data-menu="abrir"><img src="./assets/images/icon-menu.svg"
+          alt=""></a>
+      <ul class="menu font-m">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="grid-section container  mb-3">
+    <div>
+      <div class="mb-3 grid-section-img">
+        <img src="./assets/images/image-web-3-desktop.jpg"
+          alt="">
+      </div>
+      <div class="grid-section-conteudo">
+        <h1 class="cor-4 font-xl">The Bright Future of Web 3.0?</h1>
+        <div>
+          <p class="mb-3 font-m">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+          <a href="#"
+            class="cor-0 font-m">Read more</a>
+        </div>
+      </div>
+    </div>
+
+    <aside class="side-nav py-2 px-1">
+      <h2 class="cor-5 mb-3 font-xl">New</h2>
+      <ul>
+        <li>
+          <h3 class="mb-1 font-l">
+            <a href="#"
+              class="cor-1">Hydrogen VS Electric Cars</a>
+          </h3>
+          <p class="font-m">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </li>
+        <li>
+          <h3 class="mb-1 font-l">
+            <a href="#"
+              class="cor-1">The Downsides of AI Artistry</a>
+          </h3>
+          <p class="font-m">
+            What are the possible adverse effects of on-demand AI image generation?
+          </p>
+        </li>
+        <li>
+          <h3 class="mb-1 font-l">
+            <a href="#"
+              class="cor-1">Is VC Funding Drying Up?</a>
+          </h3>
+          <p class="font-m">
+            Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          </p>
+        </li>
+      </ul>
+
+    </aside>
+  </main>
+  <footer class="footer container mb-2">
+    <div class="footer-item">
+      <div>
+        <img src="./assets/images/image-retro-pcs.jpg"
+          alt="PC retro">
+      </div>
+      <div>
+        <span class="cor-2 font-xl">01</span>
+        <h3 class="cor-4 font-l"><a href="">Reviving Retro PCs</a></h3>
+        <p class="font-m">What happens when old PCs are given modern upgrades?</p>
+      </div>
+
+    </div>
+
+    <div class="footer-item">
+      <div>
+        <img src="./assets/images/image-top-laptops.jpg"
+          alt="Laptop">
+      </div>
+      <div>
+        <span class="cor-2 font-xl">02</span>
+        <h3 class="cor-4 font-l"><a href="">Top 10 Laptops of 2022</a></h3>
+        <p class="font-m">Our best picks for various needs and budgets.</p>
+      </div>
+
+    </div>
+
+    <div class="footer-item">
+      <div>
+        <img src="./assets/images/image-gaming-growth.jpg"
+          alt="Joystick">
+      </div>
+      <div>
+        <span class="cor-2 font-xl">03</span>
+        <h3 class="cor-4 font-l"><a href="">The Growth of Gaming</a></h3>
+        <p class="font-m">How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </div>
+
+  </footer>
+  <div class="menu-mobile-bg" data-menu="container">
+    <nav class="menu-mobile">
+      <a href="#"
+        data-menu="fechar"><img src="./assets/images/icon-menu-close.svg"
+          alt=""></a>
+      <ul class="menu-mobile-nav cor-4 font-l">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+  </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
+      target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script type="module"
+    src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.font-s{
+  font: 400 .825rem/1.2 "Inter", sans-serif;
+}
+.font-m{
+  font: 400 1rem/1.3 "Inter", sans-serif;
+}
+.font-l{
+  font: 700 1.5rem/1.3 "Inter", sans-serif;
+}
+.font-xl{
+  font: 800 2.5rem/1.3 "Inter", sans-serif;
+}
