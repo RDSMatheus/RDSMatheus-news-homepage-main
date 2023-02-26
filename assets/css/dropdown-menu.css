@@ -1,0 +1,36 @@
+.menu a{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.dropdown>a::after{
+  content: url("../images/chevron-down.svg");
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+
+.dropdown-menu{
+  background-color: var(--cor-6);
+  color: var(--cor-0);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 5000;
+  display: none;
+}
+.dropdown-menu a:hover{
+  color: var(--cor-5);
+}
+[data-dropdown].ativo .dropdown-menu{
+  display: block;
+}
+.dropdown:hover > a::after,
+.dropdown.ativo > a::after{
+  transform: rotate(180deg);
+  transition: .3s;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
